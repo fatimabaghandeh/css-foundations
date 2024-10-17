@@ -132,12 +132,9 @@ button:not(button:last-of-type){
         left: -120%;
         padding-top: 60px; 
         transition: left 0.2s linear;
-        background-color: var(--color-white);
         
       }
-      .close g path{
-        fill: var(--color-primary);
-      }
+      
       .body-no-scroll{
         overflow: hidden;
       }
@@ -171,4 +168,9 @@ button:not(button:last-of-type){
 }
 .menu, .close{
     cursor: pointer;
+}
+@media(max-width: 590px){
+    header{
+        padding: 0 20px;
+    }
 }

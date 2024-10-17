@@ -1,6 +1,8 @@
 @import "./base.css";
 
-
+.close g path{
+    fill: var(--color-primary);
+  }
 
 body{
     background-color: var(--color-white);
@@ -55,4 +57,18 @@ h2,p{
         grid-template-columns: 1fr;
     }
 
+}
+@media (max-width: 840px) {
+    nav{
+        background-color: var(--color-white);
+    
+    }
+    .mainTitle{
+        font-size: 80px;
+    }
+}
+@media (max-width: 590px) {
+    .mainTitle{
+        font-size: 50px;
+    }
 }
