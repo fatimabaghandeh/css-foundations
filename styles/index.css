@@ -22,7 +22,7 @@ main{
 @media(max-width: 590px){
     main{
      font-size: 40px;
-     padding: 55px;
+     padding: 60px;
     }
     .sub-heading{
         font-size: 24px;
@@ -31,4 +31,9 @@ main{
         font-size: 20px;
     }
     
+ }
+ @media(max-width: 840px){
+    main{
+        padding: 80;
+    }
  }
