@@ -75,3 +75,16 @@ h2,p{
         font-size: 50px;
     }
 }
+@media(max-width: 450px){
+   main{
+    padding: 50px;
+   }
+   .speaker-image{
+    width: 250px;
+    height: 250px;
+   }
+   .speaker-bio{
+    font-size: 15px ;
+   }
+ 
+ }

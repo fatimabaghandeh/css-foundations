@@ -19,6 +19,7 @@ main{
 }
 
 }
+
 @media(max-width: 590px){
     main{
      font-size: 40px;
@@ -29,6 +30,9 @@ main{
     }
     .date{
         font-size: 20px;
+    }
+    main > p{
+        line-height: 60px;
     }
     
  }
