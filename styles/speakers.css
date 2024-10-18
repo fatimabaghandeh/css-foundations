@@ -1,5 +1,8 @@
 @import "./base.css";
 
+main{
+    padding-top: 100px;
+}
 .close g path{
     fill: var(--color-primary);
   }
