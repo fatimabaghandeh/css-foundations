@@ -1,7 +1,7 @@
 @import "./base.css";
 
-main{
-    padding-top: 100px;
+.main{
+    padding-top: 50px;
 }
 .close g path{
     fill: var(--color-primary);
@@ -15,10 +15,10 @@ body{
     max-width: 460px;
 
 }
-.speaker-content{
+.speaker-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-auto-rows: minmax(auto, 1fr); 
     grid-column-gap: 200px;
     grid-row-gap: 12px;
 }
